@@ -8,4 +8,4 @@ media.css
 [here](https://github.com/AlexNugda/notify/blob/main/css/media.css).
 
 Notify on githup-pages:
-[here](https://alexnugda.github.io/notify/).
+[here](https://alexnugda.github.io/Notify/index.html).
