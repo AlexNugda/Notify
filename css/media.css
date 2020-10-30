@@ -100,7 +100,7 @@
     font-size: 16px;
     line-height: 18px;
     padding: 10px;
-    width: 180px;
+    max-width: 150px;
   }
   .notify-form button {
     font-size: 16px;

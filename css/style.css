@@ -234,6 +234,8 @@ a.windows::before {
 
 .notify-form {
   font-size: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .notify-form input {
