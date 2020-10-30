@@ -189,21 +189,38 @@ a.windows::before {
   justify-content: space-between;
 }
 
-.get_notified-form-box {
+.get_notified-form-box,
+.get_notified-video {
   flex-basis: 50%;
   flex-grow: 1;
+}
+
+.get_notified-form-box {
   padding-top: 30px;
+  text-align: left;
 }
 
 .get_notified-video {
   padding-top: 30px;
   text-align: right;
-  flex-basis: 50%;
-  flex-grow: 1;
 }
 
-.get_notified-form-box {
-  text-align: left;
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .get-notified-title {
